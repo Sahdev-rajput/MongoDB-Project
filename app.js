@@ -166,9 +166,7 @@ else
 
 
 
-connectDB().then(()=>{
   app.listen(process.env.port || 3000, function () {
     console.log("Server started on port 3000");
   });
-})
 
